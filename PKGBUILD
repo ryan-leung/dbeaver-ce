@@ -11,8 +11,8 @@ install=dbeaver-ce.install
 source=(dbeaver-ce.desktop dbeaver-ce.install)
 source_x86_64=("https://dbeaver.io/files/${pkgver}/dbeaver-ce-${pkgver}-linux.gtk.x86_64.tar.gz"
              "https://dbeaver.io/files/${pkgver}/checksum/dbeaver-ce-${pkgver}-linux.gtk.x86_64.tar.gz.sha256")
-sha256sums=('2491fc899838488b38d8b1828ad1b14ceabdbf81ffcc1f28e67c3d636ad7f670'
-            'ccaa114e08a68335781ec81520d23f137449e48ddae48015878a071a8c6cf97f')
+sha256sums=('f1dd2cd13732d00a36d95218d59423689112b343b2212744f6c7b6893381ce78'
+            '0c2a75baa39459fa56159e982d9f28c966837561bd52dffd24bac87b8d65555f')
 sha256sums_x86_64=('SKIP' 'SKIP')
 
 noextract=("dbeaver-ce-${pkgver}-linux.gtk.x86_64.tar.gz")
